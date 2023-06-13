@@ -6,3 +6,4 @@ WORKDIR /docker/app/game_bot/
 COPY . /docker/app/game_bot/
 RUN pip install -r req.txt
 
+CMD ["python","main.py"]
